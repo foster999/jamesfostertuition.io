@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <link href="burger.css" type="text/css" rel="stylesheet" media = "only screen and (max-width: 600px)">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style> 
+      * { 
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+       
+      html {
+        overflow: -moz-scrollbars-vertical; 
+        overflow-y: scroll;
+        height: 100%;
+      }
+      
+      body {
+        height: 100%;
+        padding-bottom: 3rem;
+      }
+
+      h1 {
+      font-size: 2rem;
+      line-height: 5rem;
+      }
+      
+      h2 {
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+      margin-top: 4rem;
+      }
+      
+      h3 {
+        font-weight: 600;
+        line-height: 3rem;
+      }
+
+      p {
+        line-height:1.5em;
+        font-family: Roboto, Arial, sans-serif;
+        text-align: justify;
+        font-size: 1rem;
+        margin-bottom: .75rem;
+        padding: .125rem
+      }
+      
+      a:not(.inline-link) {
+        color: currentColor;
+        text-decoration: none;
+      }
+      
+      .nav-container {
+
+        overflow: hidden;
+        width: 100%;
+
+      }
+      
+      .nav {
+        background-color: #ecf2f9;
+        width: 100%;
+        text-align: center;
+
+        z-index:99;
+        border-top: 2px solid #1a66ff;
+            -webkit-box-shadow: 0px 0px 20px 1px #000000;
+              -moz-box-shadow: 0px 0px 20px 1px #000000;
+                box-shadow: 0px 0px 20px 1px #000000;
+      }
+
+      .nav li {
+
+        font-family: 'Roboto', sans-serif;
+        color: SteelBlue;
+
+      }
+      
+      .nav li:hover:not(.active) {
+        opacity: 0.7;
+      }
+      
+      .active {
+        border-bottom: 1px solid currentColor;
+        pointer-events: none;
+        cursor: default;
+      }
+
+      
+      .mid {
+        width:100%;
+        overflow: auto;
+      }
+      
+      .main-container {
+        width: 49%
+      }
+      
+      .main-text {
+        margin: 5% 10%;
+      }
+            
+      .footer {
+        position: absolute;
+        bottom: 0;
+        height: 7rem;
+        width: 100%;
+        padding: 0.5rem 0rem 0rem 0rem;
+        background-color: #efefef;;
+        text-align: center;
+        margin-top: 2.5rem;
+      }
+      
+      .copyright {
+        width: 20rem;
+        overflow: hidden;
+        margin: auto;
+      }
+      
+      .hidden {
+      visibility: hidden;
+      }
+      
+      .inactive {
+        display: none;
+      }
+      
+      @media only screen and (max-width: 1343px) {
+      .empty {
+        height: 8rem;
+      }
+      }
+      
+      @media only screen and (max-width: 809px) {
+      .empty {
+        height: 12rem;
+      }
+      .main-container {
+        margin: 5% 5%;
+      }
+      }
+      
+      @media only screen and (max-width: 546px) {
+      .empty {
+        height: 16rem;
+      }
+      .navigation li {
+        font-size: 12px
+      }
+      .nav-container {
+        position: static;
+      }
+      }
+      
+       </style>
+
+	<!-- Viewport between devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Gait, Chiropodist, Podiatrist, Dietician, Massage, Feet, Sport">
+	<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>The Foot &amp; Gait Clinic</title>
+
+	</head>
+<body>
+  <div class  ="nav-container">
+  <input class="burger-check inactive" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+  <nav class = "nav navigation" id = "navigation1"> 
+    <ul><!--Set current page as active class-->
+    <li class = "active" ><a href = "index.html" class = "nav-link">Home</a></li>
+    <li><a href = "all.html" class = "nav-link">All Practitioners</a></li>
+    <li><a href = "podiatry.html" class = "nav-link">Podiatry and Chiropody</a></li>
+    <li><a href = "massage.html" class = "nav-link">Sport and Remedial Massage Therapy</a></li>
+    <li><a href = "dietetics.html" class = "nav-link">Dietetics</a></li>
+    <li><a href = "acupuncture.html" class = "nav-link">Acupuncture</a></li>
+    <li><a href = "contact.html" class = "nav-link">Contact us</a></li>
+    </ul>
+  </nav>
+  </div>
+  <div class = "mid">
+  <div class = "main-container">
+    <div class = "main-text">
+    <h3></h3>
+    <p></p>
+  </div>
+  </div>
+  </div>
+  <div class = "footer">
+    <div class = "copyright">
+      <p>Copyright &copy; 2017 The Foot and Gait Clinic Limited
+      <br>
+      Company Registered in England No. #
+    </p>
+  </div>
+  <div class = "opening">
+      <p><strong>Reception Opening Times</strong></p>
+      <p>Monday - Friday</p>
+      <p>08:30 - 17:00</p>
+      <p>Tel: 01823 256440</p>
+    </div>
+  </div>
+</body></html>
