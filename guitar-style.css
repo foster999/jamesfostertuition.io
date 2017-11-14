@@ -2,16 +2,6 @@
 	/*border: 1px solid rgba(255, 255, 255, 0.3);*/
   }   
 
-  .banner-container {
-	width: 100%;
-  }
-
-  #banner-logo {
-	width: 100%;
-	z-index: 97;
-	padding-top: 1%;
-  }
-  
 	@media only screen and (max-width: 1343px) {
   .empty {
 	height: 8rem;
