@@ -146,8 +146,9 @@ a:not(.inline-link) {
 }
 	
 .footer {
+	position: absolute;
+	bottom: 0;
 	width: 100%;
-	height: 5rem;
 	padding: 0.5rem 0rem 0rem 0rem;
 	background-color: DimGrey;
 	text-align: center;
@@ -157,7 +158,7 @@ a:not(.inline-link) {
 .copyright {
 	max-width: 20rem;
 	overflow: hidden;
-	margin: 1.5rem auto;
+	margin: 0.5rem auto;
 	display: inline-block;
 }
 
