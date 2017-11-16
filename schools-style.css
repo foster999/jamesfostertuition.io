@@ -25,3 +25,9 @@
 	font-size: 12px;
   }
   }
+  .violin{
+	  float: left;
+  }
+  .classical{
+	  float: right;
+  }
