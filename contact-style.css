@@ -59,6 +59,13 @@
 	opacity: 0.7;
   }
   
+  .instagram {
+	padding: 0.2rem;
+  }
+  
+  .instagram:hover {
+	opacity: 0.7;
+  }
   @media only screen and (max-width: 1343px) {
   .empty {
 	height: 8rem;
