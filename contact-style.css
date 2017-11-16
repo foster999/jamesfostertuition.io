@@ -1,5 +1,5 @@
   * { 
-	<!--border: 1px solid rgba(0, 0, 0, 0.3);-->
+	/*border: 1px solid rgba(255, 255, 255, 0.3);*/
   }
   
   h2 {
@@ -7,19 +7,7 @@
 	line-height: 1.5rem;
 	margin: 3rem 0rem 1rem 0rem;
   }
-  
-  .mid {
-	width:100%;
-	overflow: auto;
-	display: flex; 
-	flex-wrap: wrap; 
-	justify-content: center;
-  }
-  
-  .main-container {
-	width: 100%
-  }
-  
+ 
   .main-text {
 	diplay: inline;
 	width: 80%;
@@ -27,12 +15,17 @@
 	margin: 5% auto;
   }
   
+  .main-container {
+	width: 100%;
+  }
+  
   .find {
   float: right;
+  margin: 3rem 10%;
   }
   
   .main-text li {
-	margin: .75rem;
+	margin: 0.75rem;
 	list-style-position: inside;
 	text-indent: 1rem;
 	font-family: Roboto, Arial, sans-serif;
@@ -70,6 +63,12 @@
   .empty {
 	height: 8rem;
   }
+  .find {
+	display: block;
+	float: none;
+	margin: 5% auto;
+	width: 80%;
+  }
   }
   
   @media only screen and (max-width: 809px) {
@@ -77,11 +76,17 @@
 	height: 12rem;
   }
   .main-text {
-	width: 80%;
+	width: 80%;	
   }
   .gmap-container {
 	padding-bottom: 70%;
 	width: 70%;
+  }
+   .mid {
+	width:100%;
+	overflow: auto;
+	display: flex; 
+	flex-wrap: wrap; 
   }
   }
   

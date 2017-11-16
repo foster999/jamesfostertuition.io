@@ -6,7 +6,7 @@
   padding: 0;
   margin: 0.75rem 0rem 0.3rem 0rem;
   cursor: pointer;
-  border-bottom: 4px solid currentColor;
+  border-bottom: 4px solid White;
   width: 28px;
 }
 .burger::-moz-focus-inner {
@@ -16,7 +16,7 @@
 .burger:before {
   content: "";
   display: block;
-  border-bottom: 4px solid currentColor;
+  border-bottom: 4px solid White;
   width: 100%;
   margin-bottom: 5px;
   transition: -webkit-transform 0.5s ease-in-out;
@@ -27,7 +27,7 @@
 .burger:after {
   content: "";
   display: block;
-  border-bottom: 4px solid currentColor;
+  border-bottom: 4px solid White;
   width: 100%;
   margin-bottom: 5px;
   transition: -webkit-transform 0.5s ease-in-out;
@@ -102,5 +102,5 @@
 	border-bottom: 0px;
 	pointer-events: none;
 	cursor: default;
-	color: #1a66ff !important;
+	opacity: 0.7 !important;
 }
