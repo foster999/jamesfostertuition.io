@@ -112,6 +112,7 @@ a:not(.inline-link) {
 
 .main-text {
 	margin: auto 10%;
+	padding-bottom: 2rem;
 } 
 
 .main-text li {
@@ -131,6 +132,10 @@ a:not(.inline-link) {
 	cursor: default;
 }
 
+.text-image {
+	margin: 0.5rem 2rem;
+}
+
 .empty {
 	height: 4rem;
 	z-index: -100;
@@ -144,20 +149,20 @@ a:not(.inline-link) {
 	width:100%;
 	overflow: auto;
 }
-	
+
 .footer {
+	position: absolute;
+	bottom: 0;
 	width: 100%;
-	height: 5rem;
 	padding: 0.5rem 0rem 0rem 0rem;
 	background-color: DimGrey;
 	text-align: center;
-	margin-top: 2.5rem;
   }
 
 .copyright {
 	max-width: 20rem;
 	overflow: hidden;
-	margin: 1.5rem auto;
+	margin: 0.5rem auto;
 	display: inline-block;
 }
 
