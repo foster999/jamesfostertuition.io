@@ -24,4 +24,7 @@
   .navigation li {
 	font-size: 12px;
   }
+}
+  img {
+      float: left;
   }
