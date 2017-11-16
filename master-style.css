@@ -133,7 +133,15 @@ a:not(.inline-link) {
 }
 
 .text-image {
-	margin: 0.5rem 2rem;
+	margin: 1rem 2rem;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
 
 .empty {
