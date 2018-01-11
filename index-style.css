@@ -16,10 +16,6 @@
 	z-index: 97;
   }
   
-  .banner-container h1 {
-	opacity: 1;
-  }
-  
 	@media only screen and (max-width: 1009px) {
   .empty {
 	height: 8rem;
