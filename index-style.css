@@ -3,22 +3,30 @@
   }   
 
   .banner-container {
-	width: 100%;
-  }
-
-  #banner-logo {
-	width: 100%;
+	/*opacity: 0.6; Makes text children also opaque, so changed image opacity manually*/
+	background-size: cover;
+	background-image: url("images/guitar-banner50.png");
+	background-position: center;
+	height: 25rem;
+	background-repeat: no-repeat;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 	z-index: 97;
-	padding-top: 1%;
   }
   
-	@media only screen and (max-width: 1343px) {
+  .banner-container h1 {
+	opacity: 1;
+  }
+  
+	@media only screen and (max-width: 1009px) {
   .empty {
 	height: 8rem;
   }
   }
   
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 750px) {
   .empty {
 	height: 12rem;
   }
